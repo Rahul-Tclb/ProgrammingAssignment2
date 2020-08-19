@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The first function is the Cache Matrix functio
+## function calculating the inverse of the matrix
 
-## Write a short comment describing this function
+## we are creating a funcion that which gives the list of elements as output
 
 makecachematrix <- function(x = matrix()){
   inv <- NULL
@@ -15,8 +15,7 @@ makecachematrix <- function(x = matrix()){
   list(set = set , get = get, setinverse =  setinverse , getinverse = getinverse)
 }
 
-## Write a short comment describing this function
-
+## the below function helps in holding the data with in the environment without calculating all the computations
 cachesolve <- function(x, ...){
   inv <- x$getinverse()
   if(!is.null(inv)){
