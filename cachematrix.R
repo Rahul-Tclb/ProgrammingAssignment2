@@ -11,7 +11,7 @@ makecachematrix <- function(x = matrix()){              ## Cache Matrix function
   getinverse <- function(){inv}                         ## Method to get the inverse of the matriix
   list(set = set ,                                      ## Return a list of the methods
        get = get, 
-       setinverse  =  setinverse , 
+       setinverse  =  setinverse, 
        getinverse  =  getinverse)
 }
 
